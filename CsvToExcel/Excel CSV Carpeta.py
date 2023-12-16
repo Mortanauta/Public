@@ -1,3 +1,11 @@
+# Autor: Mortanauta
+# Fecha: 01/12/2023
+# Web: https://elrincondemorta.wordpress.com/
+# Github: https://github.com/Mortanauta/Public  
+# Licencia: GPL 3.0 https://www.gnu.org/licenses/gpl-3.0.en.html
+
+
+
 #Elementos necesarios para la ejecución del programa:
 #pip install pandas
 #pip install openpyxl
@@ -9,10 +17,11 @@ import time
 
 print(f"""\n
 \n                                                                          Version 1.0
-      |\        ******************************************************          _   
-      | \       *           CONVERSOR CSV ˂-˃ XLSX                   *        >(.)__ 
-      | /       *     Convierte archivos CSV a XLSX y viceversa      *         (___/
-      |/        ******************************************************         
+
+      |\        ******************************************************      By: Mortanauta      
+      | \       *           CONVERSOR CSV ˂-˃ XLSX                   *          https://elrincondemorta.wordpress.com/     
+      | /       *     Convierte archivos CSV a XLSX y viceversa      *          https://github.com/Mortanauta/Public  
+      |/        ******************************************************       
                                                                         """)
 
 #Convierte archivos CSV a Excel XLSX
