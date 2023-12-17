@@ -1,3 +1,10 @@
+# Autor: Mortanauta
+# Fecha: 01/10/2023
+# Web: https://elrincondemorta.wordpress.com/
+# Github: https://github.com/Mortanauta/Public  
+# Licencia: GPL 3.0 https://www.gnu.org/licenses/gpl-3.0.en.html
+
+
 import socket
 import ipaddress
 import re
@@ -49,10 +56,10 @@ def scan_ips(start_ip, end_ip, start_port, end_port, verbose=False):
 #direccion_ip = socket.gethostbyname(socket.gethostname()) # Cuando solo hay una dirección IP asociada al equipo (A)
 
 # Main Program
-print("\n                                 ESCANER PUERTOS                     V:1.31\n")
-print("   |\\      ----------------------------------------------------------------")
-print("   | \\     |  Este programa escanea una red en busca de puertos abiertos  |" )
-print("   | /     |  Introduzca los datos de la red a escanear:                  |")
+print("\n                                 ESCANER PUERTOS                                    V:1.31\n")
+print("   |\\      ----------------------------------------------------------------            By: Mortanauta            ")           
+print("   | \\     |  Este programa escanea una red en busca de puertos abiertos  |            https://elrincondemorta.wordpress.com/  " )
+print("   | /     |  Introduzca los datos de la red a escanear:                  |            https://github.com/Mortanauta/Public")
 print("   |/      ----------------------------------------------------------------\n")
 
 #print(f"           Dirección IP del equipo: {direccion_ip} \n ") # Cuando solo hay una dirección IP asociada al equipo (A)

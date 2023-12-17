@@ -1,8 +1,8 @@
-#Creador: Miguel Angel de Pablo
-#Fecha: 03/12/2023  
-#Descripción: Convierte una carpeta de archivos PDF a archivos de texto
-#Versión: 1.1
-#--------------------------------------------------------------
+# Autor: Mortanauta
+# Fecha: 05/12/2023
+# Web: https://elrincondemorta.wordpress.com/
+# Github: https://github.com/Mortanauta/Public  
+# Licencia: GPL 3.0 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 #Changelog:
 #1.1 - Añadido temporizador y verbose de archivos convertidos 05/12/2023
@@ -39,10 +39,11 @@ def pdf_a_texto(ruta_pdf, ruta_salida, formato):
 
 if __name__ == "__main__":
     print(f"""\n
-                                                                            Version 1.0
-      |\        ******************************************************          _   
-      | \       *           CONVERSOR CSV ˂=˃ XLSX                   *        >(.)__ 
-      | /       *        Convierte los archivos PDF a texto          *         (___/
+                                                                            Version 1.1
+
+      |\        ******************************************************       By: Mortanauta        
+      | \       *           CONVERSOR PDF a Word/TXT                 *       https://elrincondemorta.wordpress.com/  
+      | /       *        Convierte los archivos PDF a texto          *       https://github.com/Mortanauta/Public  
       |/        ******************************************************         
                                                                         """)
 

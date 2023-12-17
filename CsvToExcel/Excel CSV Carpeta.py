@@ -18,7 +18,7 @@ import time
 print(f"""\n
 \n                                                                          Version 1.0
 
-      |\        ******************************************************      By: Mortanauta      
+      |\        ******************************************************          By: Mortanauta      
       | \       *           CONVERSOR CSV ˂-˃ XLSX                   *          https://elrincondemorta.wordpress.com/     
       | /       *     Convierte archivos CSV a XLSX y viceversa      *          https://github.com/Mortanauta/Public  
       |/        ******************************************************       

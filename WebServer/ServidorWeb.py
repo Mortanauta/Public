@@ -1,3 +1,9 @@
+# Autor: Mortanauta
+# Fecha: 01/10/2023
+# Web: https://elrincondemorta.wordpress.com/
+# Github: https://github.com/Mortanauta/Public  
+# Licencia: GPL 3.0 https://www.gnu.org/licenses/gpl-3.0.en.html
+
 import http.server
 import socketserver
 import socket  # Importa el módulo socket
@@ -5,9 +11,10 @@ import os
 import sys
 import ipaddress
 
-print(f"\n          ____    |\            --------------                       Versión 2.1")
-print(f"         ||__||   | \          |   SERVIDOR   | ")
-print(f"         [ -=.]`) | /          |    WEB 🌍    |")
+print(f"\n                                                                  Version 2.1\n")
+print(f"          ____    |\            --------------                  by: Mortanauta")
+print(f"         ||__||   | \          |   SERVIDOR   |                 https://elrincondemorta.wordpress.com/")
+print(f"         [ -=.]`) | /          |    WEB 🌍    |                 https://github.com/Mortanauta/Public ")
 print(f"         ====== 0 |/            --------------\n")
 print(f"    Comparte la carpeta donde esté ubicado el archivo en cualquier navegador web.\n\n")
 
