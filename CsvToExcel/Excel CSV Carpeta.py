@@ -19,10 +19,10 @@ print(f"""\n
 \n                                                                          Version 1.0
 
       |\        ******************************************************          By: Mortanauta      
-      | \       *           CONVERSOR CSV ˂-˃ XLSX                   *          https://elrincondemorta.wordpress.com/     
-      | /       *     Convierte archivos CSV a XLSX y viceversa      *          https://github.com/Mortanauta/Public  
-      |/        ******************************************************       
-                                                                        """)
+      |⁜\       *            CONVERSOR CSV ˂-˃ XLSX                  *          https://elrincondemorta.wordpress.com/     
+    \⁜|Morta    *     Convierte archivos CSV a XLSX y viceversa      *          https://github.com/Mortanauta/Public  
+     \|Nauta    ******************************************************       
+                                                                            """)
 
 #Convierte archivos CSV a Excel XLSX
 def csv_a_xlsx(ruta_carpeta, carpeta_salida):
@@ -44,8 +44,8 @@ def csv_a_xlsx(ruta_carpeta, carpeta_salida):
 
     tiempo_transcurrido = round(time.time() - inicio_tiempo, 2)
     print(f"\n    ---¡CONVERSIÓN COMPLETADA!--- :)")
-    print(f"    • Archivos convertidos: {archivos_convertidos}")
-    print(f"    • Tiempo de proceso:    {tiempo_transcurrido} segundos")
+    print(f"    ► Archivos convertidos: {archivos_convertidos}")
+    print(f"    ► Tiempo de proceso:    {tiempo_transcurrido} segundos")
     input("\n     (Pulse Enter para salir...)")
 
 #Convierte archivos Excel XLS/XLSX a CSV
@@ -68,15 +68,15 @@ def xlsx_a_csv(ruta_carpeta, carpeta_salida):
 
     tiempo_transcurrido = round(time.time() - inicio_tiempo, 2)
     print(f"\n    ---¡CONVERSIÓN COMPLETADA!--- :)")
-    print(f"    • Archivos convertidos: {archivos_convertidos}")
-    print(f"    • Tiempo de proceso:    {tiempo_transcurrido} segundos")
+    print(f"    ► Archivos convertidos: {archivos_convertidos}")
+    print(f"    ► Tiempo de proceso:    {tiempo_transcurrido} segundos")
     input("\n     (Pulse Enter para salir...)")
 
 
 #Programa principal
 if __name__ == "__main__":
-    ruta_origen = input("      • Ruta de la carpeta de origen: ")
-    carpeta_salida = input("""      • Ruta de la carpeta de salida 
+    ruta_origen = input("      ► Ruta de la carpeta de origen: ")
+    carpeta_salida = input("""      ► Ruta de la carpeta de salida 
         (Vacio, se utilizará la misma ruta que la carpeta de origen): """)
     
     
