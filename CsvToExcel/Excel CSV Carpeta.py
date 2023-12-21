@@ -20,9 +20,9 @@ print(f"""\n
 
       |\        ******************************************************          By: Mortanauta      
       |⁜\       *           CONVERSOR CSV ˂-˃ XLSX                   *          https://elrincondemorta.wordpress.com/     
-    \⁜|         *     Convierte archivos CSV a XLSX y viceversa      *          https://github.com/Mortanauta/Public  
-     \|Morta    ******************************************************       
-           Nauta\n                                                                 """)
+    \⁜|Morta    *     Convierte archivos CSV a XLSX y viceversa      *          https://github.com/Mortanauta/Public  
+     \|Nauta    ******************************************************       
+        \n                                                                 """)
 
 #Convierte archivos CSV a Excel XLSX
 def csv_a_xlsx(ruta_carpeta, carpeta_salida):
