@@ -16,13 +16,13 @@ import pandas as pd
 import time
 
 print(f"""\n
-\n                                                                          Version 1.0
+\n                                                                            Version 1.0
 
-      |\        ******************************************************          By: Mortanauta      
-      |⁜\       *            CONVERSOR CSV ˂-˃ XLSX                  *          https://elrincondemorta.wordpress.com/     
-    \⁜|Morta    *     Convierte archivos CSV a XLSX y viceversa      *          https://github.com/Mortanauta/Public  
-     \|Nauta    ******************************************************       
-                                                                            """)
+      |\        ****************************************************                
+      |⁜\       *              CONVERSOR CSV - XLSX                *          By: Mortanauta       
+      |Morta    *     Convierte archivos CSV a XLSX y viceversa    *          https://elrincondemorta.wordpress.com  
+      |Nauta    ****************************************************          https://github.com/Mortanauta/Public   
+    \n          La conversión se realiza sobre todos los archivos de la carpeta.   \n                        """)
 
 #Convierte archivos CSV a Excel XLSX
 def csv_a_xlsx(ruta_carpeta, carpeta_salida):
