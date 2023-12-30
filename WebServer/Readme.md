@@ -7,7 +7,7 @@ CONTENTS:
     Leeme - Information File (this document)
     Readme - Information File in English
 
-Upon activation of this code, a server is launched that displays one or multiple IP addresses (depending on your network), along with a port number, for instance: 192.168.1.1:8000. Entering this information into your browser unveils the files in the folder, enabling you to view, execute, or download them.
+Upon activation of this code, a server is launched that displays one or multiple IP addresses (depending on your network), along with a port number, for example: 192.168.1.1:8000. Entering this information into your browser unveils the files in the folder, enabling you to view, execute, or download them.
 
 For enhanced security and to avoid mistakes, the precise location of the shared folder is disclosed.
 
