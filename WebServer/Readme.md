@@ -6,8 +6,8 @@ CONTENTS:
 
     ServidorWeb.py - Python Code
     ServidorWeb.exe - Executable for Windows
-    Leeme - Information File (this document)
-    Readme - Information File in English
+    Leeme - Information File in Spanish 
+    Readme - Information File in English(this document)
 
 Upon activation of this code, a server is launched that displays one or multiple IP addresses (depending on your network), along with a port number, for example: 192.168.1.1:8000. Entering this information into your browser unveils the files in the folder, enabling you to view, execute, or download them.
 
