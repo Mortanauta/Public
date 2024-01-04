@@ -5,7 +5,7 @@
 CONTENTS:
 
     ServidorWeb.py - Python Code in Spanish
-	  WebServer.py - Python code in English
+    WebServer.py - Python code in English
     ServidorWeb.exe - Executable for Windows
     Leeme - Information File in Spanish 
     Readme - Information File in English(this document)
