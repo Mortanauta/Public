@@ -1,12 +1,17 @@
+# ![](./Images/GitHub.png) Servidor Web
 
-WebServer: Tu Propio Servidor Web Personal
+Esta aplicación facilita la creación de un servidor web que otorga acceso a través de un navegador web al contenido ubicado en la carpeta donde se ejecuta la aplicación.
 
-Esta aplicación crea un servidor web que facilita el acceso, a través de un navegador web, al contenido ubicado en la carpeta del archivo se haya ejecutado.
+## Contenido
 
-Al activar este código, se inicia un servidor que mostrará una o varias direcciones IP (dependiendo de la red a la que pertenezcas), junto con el número de puerto, por ejemplo: 192.168.1.1:8000. Al ingresar esta información en tu navegador, se desplegarán los archivos de la carpeta, permitiéndote visualizarlos, ejecutarlos o descargarlos.
+- **ServidorWeb.py:** Código en Python (en español)
+- **WebServer.py:** Código en Python (en inglés)
+- **ServidorWeb.exe:** Ejecutable para Windows
+- **Leeme:** Archivo de información (en español)
+- **Readme:** Archivo de información (en inglés) - este documento
 
-Para mayor seguirad y evitar equivocaciones, se muestra la ubicación exacta de la carpeta que estás compartiendo.
+Al activar este código, se inicia un servidor que muestra la dirección IP actual de tu sistema (pudiendo ser una o más, dependiendo de tu red) junto con un número de puerto, por ejemplo, *192.168.1.1:8000*. Ingresar esta información en tu navegador permite acceder a los archivos en la carpeta, lo que posibilita ver, ejecutar o descargar dichos archivos.
 
-En su esencia, este código te brinda la posibilidad de convertir tu dispositivo en un servidor web simple, ofreciéndote la facilidad y rapidez de compartir contenido local con otros dispositivos de tu red a través de un navegador web.
+Para evitar errores, se muestra en pantalla la ubicación precisa de la carpeta compartida. Además, se monitorea la actividad del servidor para tu conveniencia. Para detener el servidor, simplemente presiona Ctrl+C o cierra la ventana.
 
-Para finalizar la ejecución y no compartir más, pulsaremo Ctrl+C o cerraremos la ventana.
+Básicamente, este código te permite convertir tu dispositivo en un servidor web simple, compartiendo sin complicaciones el contenido local con otros dispositivos en tu red a través de un navegador web, mejorando la facilidad y velocidad de acceso.
