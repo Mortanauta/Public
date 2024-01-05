@@ -1,16 +1,16 @@
 # ![](./Images/GitHub.png) &nbsp;&nbsp;   WEBSERVER                                                                             
-## This application creates a web server that grants access, through a web browser, to the content located in the folder where the file has been executed.
+## This application facilitates the creation of a web server, granting web browser access to the contents within the folder where the application is executed.
 
 CONTENTS:
 
-    ServidorWeb.py - Python Code in Spanish
-    WebServer.py - Python code in English
-    ServidorWeb.exe - Executable for Windows
-    Leeme - Information File in Spanish 
-    Readme - Information File in English(this document)
+    ServidorWeb.py: Python code (in Spanish)
+    WebServer.py: Python code (in English)
+    ServidorWeb.exe: Executable for Windows
+    Leeme: Information file (in Spanish)
+    Readme: Information file (in English) - this document
 
-At activation of this code, a server is launched that displays the current IP of your system, it can be one or more depending on your network, along with a port number, for example: *192.168.1.1:8000*. Entering this information into your browser displays the files in the folder, enabling you to view, execute, or download them.
+Upon activation, this code initiates a server that displays your system's current IP address (which may include one or more, depending on your network) along with a port number, e.g., 192.168.1.1:8000. Entering this information into your browser allows access to the files within the folder, enabling viewing, execution, or downloading.
 
-To avoid mistakes, the precise location of the shared folder is also disclosed in the scree.
+To prevent errors, the specific location of the shared folder is prominently displayed on-screen. The server's activity is also monitored for your convenience. To terminate the server, simply press Ctrl+C or close the window.
 
-Essentially, this code empowers you to transform your device into a simple web server, providing the ease and speed to share local content with other devices on your network via a web browser.
+Essentially, this code empowers you to convert your device into a simple web server, effortlessly sharing local content with other devices on your network via a web browser, enhancing ease and speed of access.
