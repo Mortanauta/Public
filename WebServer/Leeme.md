@@ -1,8 +1,8 @@
 # ![](./Images/GitHub.png) Servidor Web
 
-Esta aplicación facilita la creación de un servidor web que otorga acceso a través de un navegador web al contenido ubicado en la carpeta donde se ejecuta la aplicación.
+##Esta aplicación facilita la creación de un servidor web que otorga acceso a través de un navegador web al contenido ubicado en la carpeta donde se ejecuta la aplicación.
 
-## Contenido
+CONTENIDO
 
 - **ServidorWeb.py:** Código en Python (en español)
 - **WebServer.py:** Código en Python (en inglés)
