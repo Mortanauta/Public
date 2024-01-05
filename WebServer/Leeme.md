@@ -1,14 +1,14 @@
 # ![](./Images/GitHub.png) Servidor Web
 
-##Esta aplicación facilita la creación de un servidor web que otorga acceso a través de un navegador web al contenido ubicado en la carpeta donde se ejecuta la aplicación.
+## Esta aplicación facilita la creación de un servidor web que otorga acceso a través de un navegador web al contenido ubicado en la carpeta donde se ejecuta la aplicación.
 
 CONTENIDO
 
-- **ServidorWeb.py:** Código en Python (en español)
-- **WebServer.py:** Código en Python (en inglés)
-- **ServidorWeb.exe:** Ejecutable para Windows
-- **Leeme:** Archivo de información (en español)
-- **Readme:** Archivo de información (en inglés) - este documento
+  **ServidorWeb.py:** Código en Python (en español)
+  **WebServer.py:** Código en Python (en inglés)
+  **ServidorWeb.exe:** Ejecutable para Windows
+  **Leeme:** Archivo de información (en español)
+  **Readme:** Archivo de información (en inglés) - este documento
 
 Al activar este código, se inicia un servidor que muestra la dirección IP actual de tu sistema (pudiendo ser una o más, dependiendo de tu red) junto con un número de puerto, por ejemplo, *192.168.1.1:8000*. Ingresar esta información en tu navegador permite acceder a los archivos en la carpeta, lo que posibilita ver, ejecutar o descargar dichos archivos.
 
