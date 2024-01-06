@@ -15,11 +15,11 @@ def validar_direccion_ip(ip):
     patron_ip = r'^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$'
     return re.match(patron_ip, ip)
 
-# Función para validar que un puerto sea un número entre 0 y 65535
+# Función para validar que un puerto sea un número entre 1 y 65535
 def validar_puerto(puerto):
     try:
         puerto = int(puerto)
-        return 0 <= puerto <= 65535
+        return 1 <= puerto <= 65535
     except ValueError:
         return False
 
@@ -57,10 +57,10 @@ def scan_ips(start_ip, end_ip, start_port, end_port, verbose=False):
 
 # Main Program
 print("\n                                 ESCANER PUERTOS                                    V:1.31\n")
-print("   |\\      ----------------------------------------------------------------            By: Mortanauta            ")           
-print("   | \\     |  Este programa escanea una red en busca de puertos abiertos  |            https://elrincondemorta.wordpress.com/  " )
-print("   | /     |  Introduzca los datos de la red a escanear:                  |            https://github.com/Mortanauta/Public")
-print("   |/      ----------------------------------------------------------------\n")
+print("   |\\        --------------------------------------------------------------     ")           
+print("   |⁜\\      |  Este programa escanea una red en busca de puertos abiertos  |    By: Mortanauta " )
+print("   |Morta   |  Introduzca los datos de la red a escanear:                  |    https://elrincondemorta.wordpress.com ")
+print("   |Nauta    --------------------------------------------------------------     https://github.com/Mortanauta/Public\n")
 
 #print(f"           Dirección IP del equipo: {direccion_ip} \n ") # Cuando solo hay una dirección IP asociada al equipo (A)
 
@@ -95,7 +95,7 @@ while True:
 
 # Solicita el puerto de inicio y valida que sea un puerto válido
 while True:
-    start_port = input(" O - Introduzca el Puerto Inicial (min. 0):   ")
+    start_port = input(" O - Introduzca el Puerto Inicial (min. 1):   ")
     if validar_puerto(start_port):
         start_port = int(start_port)
         break
