@@ -3,11 +3,12 @@
 
 CONTENTS:
 
-    ServidorWeb.py: Python code (in Spanish)
-    WebServer.py: Python code (in English)
-    ServidorWeb.zip: Executable for Windows
-    Leeme: Information file (in Spanish)
-    Readme: Information file (in English) - this document
+    ServidorWeb.py: - Python code (in Spanish)
+    WebServer.py: - Python code (in English)
+    ServidorWeb.zip: - Executable for Windows
+    WebServer.zip: - Executable for Windows
+    Leeme.md: - Information file (in Spanish)
+    Readme.md: - Information file (in English) - this document
 
 Upon activation, this code initiates a server that displays your system's current IP address (which may include one or more, depending on your network) along with a port number, e.g., 192.168.1.1:8000. Entering this information into your browser allows access to the files within the folder, enabling viewing, execution, or downloading.
 
