@@ -22,7 +22,7 @@ CONTENIDO:
     EscanerPuertos.py: - Código en Python (en castellano)
     PortScanner.py: - Código en Python (en inglés)
     EscanerPuertos.zip: - Ejecutable para Windows
-	PostScanner.zip - Ejecutable para Windows
+    PostScanner.zip - Ejecutable para Windows
     Leeme.md: - Archivo de información (en castellano) - este documento
     Readme.md: - Archivo de información (en inglés) 
 
