@@ -4,11 +4,12 @@
 
 CONTENIDO
 
-    ServidorWeb.py: Código en Python (en español).
-    WebServer.py: Código en Python (en inglés).
-    ServidorWeb.exe: Ejecutable para Windows.
-    Leeme: Archivo de información (en español) - este documento.
-    Readme: Archivo de información (en inglés).
+    ServidorWeb.py: - Código en Python (en español).
+    WebServer.py: - Código en Python (en inglés).
+    ServidorWeb.zip: - Ejecutable para Windows.
+    WebServer.zip: - Ejecutable para Windows.
+    Leeme.md: - Archivo de información (en español) - este documento.
+    Readme.md: - Archivo de información (en inglés).
 
 Al activar este código, se inicia un servidor que muestra la dirección IP actual de tu sistema (pudiendo ser una o más, dependiendo de tu red) junto con un número de puerto, por ejemplo, *192.168.1.1:8000*. Ingresar esta información en tu navegador permite acceder a los archivos en la carpeta, lo que posibilita ver, ejecutar o descargar dichos archivos.
 
