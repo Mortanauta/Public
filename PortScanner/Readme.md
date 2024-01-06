@@ -16,3 +16,12 @@ Additionally, it offers a 'verbose' mode, where it provides detailed information
 Once the scan is completed, the program presents the found open ports or reports if no open ports were detected within that range of IP addresses and specified ports. Additionally, it shows the total time taken to complete this scanning process.
 
 Finally, for user convenience, it waits for the user to press Enter to exit the program after displaying the results."
+
+
+CONTENTS:
+
+    EscanerPuertos.py: Python code (in Spanish)
+    POrtScanner.py: Python code (in English)
+    EscanerPuertos.zip: Executable for Windows
+    Leeme.md: Information file (in Spanish)
+    Readme.md: Information file (in English) - this document
