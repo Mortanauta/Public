@@ -20,8 +20,9 @@ Finally, for user convenience, it waits for the user to press Enter to exit the 
 
 CONTENTS:
 
-    EscanerPuertos.py: Python code (in Spanish)
-    POrtScanner.py: Python code (in English)
-    EscanerPuertos.zip: Executable for Windows
-    Leeme.md: Information file (in Spanish)
-    Readme.md: Information file (in English) - this document
+    EscanerPuertos.py: - Python code (in Spanish).
+    POrtScanner.py: - Python code (in English).
+    EscanerPuertos.zip: - Executable for Windows.
+    PortScanner.zip - Executable for windows.
+    Leeme.md: - Information file (in Spanish).
+    Readme.md: - Information file (in English) - this document.
