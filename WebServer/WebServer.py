@@ -14,6 +14,8 @@ import platform
 import time
 
 #Front Page
+
+#Define colors
 class Color:
     RESET = '\033[0m'
     RED = '\033[91m'
@@ -23,6 +25,10 @@ class Color:
     PURPLE = '\033[95m'
     CYAN = '\033[96m'
     GREY = '\033[90m'
+
+# Check the OS
+OS = platform.system()
+OS_version = platform.release()
 
 print(f"""
 
@@ -47,11 +53,7 @@ print(f"""
    ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬  
    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 """)
-
 # Check the OS
-OS = platform.system()
-OS_version = platform.release()
-
 input(f"""
     CHECKING THE OPERATING SYSTEM
      ├ Detected OS: {OS} {OS_version}
