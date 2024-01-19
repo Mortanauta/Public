@@ -10,13 +10,66 @@ import socket
 import os
 import sys
 import ipaddress
+import platform
+import time
 
-print(f"\n                                                                 Version 2.1\n")
-print(f"          ____    |\            --------------             ")
-print(f"         ||__||   |⁜\          |   SERVER     |            by: Mortanauta")
-print(f"         [ -=.]`) |Morta       |    WEB 🌍    |            https://elrincondemorta.wordpress.com")
-print(f"         ====== 0 |Nauta        --------------             https://github.com/Mortanauta/Public\n")
-print(f"    Share the folder where the file is located in any web browser.\n\n")
+#Front Page
+class Color:
+    RESET = '\033[0m'
+    RED = '\033[91m'
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    BLUE = '\033[94m'
+    PURPLE = '\033[95m'
+    CYAN = '\033[96m'
+    GREY = '\033[90m'
+
+print(f"""
+
+   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+                        
+                           ▬ WEB SERVER ▬            
+      
+      This program allows to share the folder where the file is located. 
+      It is only necessary to run the program and share the IP address
+
+      Use with {Color.RED + 'caution' + Color.RESET}, the program does not have security measures.
+
+               Press Ctrl+C to terminate the server.
+
+    {Color.GREY + '● Author: Mortanauta' + Color.RESET} 
+    {Color.GREY + '● version: 2.2' + Color.RESET} 
+    {Color.GREY + '● Website: https://elrincondemorta.wordpress.com/' + Color.RESET}
+    {Color.GREY + '● Github: https://github.com/Mortanauta/Public' + Color.RESET}  
+    {Color.GREY + '● License: GPL 3.0 https://www.gnu.org/licenses/gpl-3.0.en.html' + Color.RESET}
+      
+   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬  
+   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+""")
+
+# Check the OS
+OS = platform.system()
+OS_version = platform.release()
+
+input(f"""
+    CHECKING THE OPERATING SYSTEM
+     ├ Detected OS: {OS} {OS_version}
+     └ Current directory: {os.path.dirname(os.path.abspath(sys.argv[0]))}
+
+      Press Enter to continue...""")   
+
+# Clear the screen
+os.system("cls" if OS == "Windows" else "clear")
+time.sleep(1)
+
+print(f"""\n                                                                 Version 2.2\n
+             ____    |\         ╔══════════════╗         
+            ||__||   |⁜\        ║   SERVER     ║ ╔═╗ ╚═╝ ╔═╗ ╚═╝ ║           
+            [ -=.]`) |Morta     ║    WEB 🌍    ║ ╚═╝ ╔═╗ ╚═╝ ╔═╗ ║           
+            ====== 0 |Nauta     ╚══════════════╝              
+        
+            Share the folder where the file is located in any web browser.\n\n""")
 
 # Specify the port on which you want the server to run
 port = 8000
