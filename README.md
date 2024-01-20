@@ -1,7 +1,7 @@
 # ![](./WebServer/Images/GitHub.png) &nbsp;&nbsp;Public
 
 ## Public ⸎ Public Applications Repository
-	        ____      |\              
+	          ____      |\              
             ||__||     |⁜\        ║ ╔═╗ ╚═╝ ╔═╗ ╚═╝ ║           
             [ -=.]`)   |Morta     ║ ╚═╝ ╔═╗ ╚═╝ ╔═╗ ║           
             ====== 0   |nauta               	Coding...
