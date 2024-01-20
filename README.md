@@ -2,7 +2,7 @@
 
 ## Public ⸎ Public Applications Repository
 	         ____      |\              
-            ||__||     |⁜\        ║ ╔═╗ ╚═╝ ╔═╗ ╚═╝ ║           
+            ||__||     |⁜\       ║ ╔═╗ ╚═╝ ╔═╗ ╚═╝ ║           
             [ -=.]`)   |Morta     ║ ╚═╝ ╔═╗ ╚═╝ ╔═╗ ║           
             ====== 0   |nauta               	Coding...
 
