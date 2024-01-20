@@ -1,5 +1,5 @@
 # Author: Mortanauta
-# Date: 10/01/2023
+# Version: 2.2
 # Website: https://elrincondemorta.wordpress.com/
 # Github: https://github.com/Mortanauta/Public  
 # License: GPL 3.0 https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -13,6 +13,7 @@ import ipaddress
 import platform
 import time
 
+#--Cut here--8<-------------------------------------------------------------------
 #Front Page
 
 #Define colors
@@ -35,7 +36,7 @@ print(f"""
    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
    ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
                         
-                           ▬ WEB SERVER ▬            
+                             ▬ WEB SERVER ▬            
       
       This program allows to share the folder where the file is located. 
       It is only necessary to run the program and share the IP address
@@ -65,10 +66,13 @@ input(f"""
 os.system("cls" if OS == "Windows" else "clear")
 time.sleep(1)
 
+#--Cut here--8<-------------------------------------------------------------------
+#Main Program
+
 print(f"""\n                                                                 Version 2.2\n
              ____    |\         ╔══════════════╗         
-            ||__||   |⁜\        ║   SERVER     ║ ╔═╗ ╚═╝ ╔═╗ ╚═╝ ║           
-            [ -=.]`) |Morta     ║    WEB 🌍    ║ ╚═╝ ╔═╗ ╚═╝ ╔═╗ ║           
+            ||__||   |⁜\        ║    SERVER    ║ ╔═╗ ╚═╝ ╔═╗ ╚═╝ ║           
+            [ -=.]`) |Morta     ║     WEB 🌍   ║ ╚═╝ ╔═╗ ╚═╝ ╔═╗ ║           
             ====== 0 |Nauta     ╚══════════════╝              
         
             Share the folder where the file is located in any web browser.\n\n""")
