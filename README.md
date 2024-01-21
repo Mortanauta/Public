@@ -1,10 +1,11 @@
 # ![](./WebServer/Images/GitHub.png) &nbsp;&nbsp;Public
 
 ## Public ⸎ Public Applications Repository
-	         ____      |\              
-            ||__||     |⁜\       ║ ╔═╗ ╚═╝ ╔═╗ ╚═╝ ║           
+	         ____      |\           
+            ||__||     |⁜\        ║ ╔═╗ ╚═╝ ╔═╗ ╚═╝ ║           
             [ -=.]`)   |Morta     ║ ╚═╝ ╔═╗ ╚═╝ ╔═╗ ║           
             ====== 0   |nauta               	Coding...
+
 
 In this repository, you will find various applications I have developed to address different needs. From a port scanner to a CSV to MS-Excel converter.
 
@@ -25,4 +26,9 @@ Each application has its own folder and a unique purpose.
 
 I hope you find these applications useful. Feel free to explore, experiment, and contribute.
 
-                    <>================================<>
+Thanks for reading.
+
+<p align="center"><img src="WebServer/Images/Avatar.png" 
+        alt="Avatar2" </p>
+
+<p align="center"><>================================<></p>

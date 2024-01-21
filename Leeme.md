@@ -25,6 +25,11 @@ Cada aplicación tiene su propia carpeta y un propósito único.
 
  Espero que encuentres estas aplicaciones útiles. Siéntete libre de explorar, experimentar y contribuir.
  
- 
+Gracias por leer. 
 
-			            <>================================<>
+<p align="center"><img src="WebServer/Images/Avatar.png" 
+        alt="Avatar2" </p>
+
+<p align="center"><>================================<></p>
+
+
