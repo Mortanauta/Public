@@ -1,22 +1,82 @@
 # Autor: Mortanauta
-# Fecha: 01/10/2023
-# Web: https://elrincondemorta.wordpress.com/
-# Github: https://github.com/Mortanauta/Public  
+# Versión: 2.2
+# Sitio web: https://elrincondemorta.wordpress.com/
+# Github: https://github.com/Mortanauta/Public
 # Licencia: GPL 3.0 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 import http.server
 import socketserver
-import socket  # Importa el módulo socket
+import socket  
 import os
 import sys
 import ipaddress
+import platform
+import time
 
-print(f"\n                                                                  Version 2.1\n")
-print(f"          ____    |\            --------------                  by: Mortanauta")
-print(f"         ||__||   | \          |   SERVIDOR   |                 https://elrincondemorta.wordpress.com/")
-print(f"         [ -=.]`) | /          |    WEB 🌍    |                 https://github.com/Mortanauta/Public ")
-print(f"         ====== 0 |/            --------------\n")
-print(f"    Comparte la carpeta donde esté ubicado el archivo en cualquier navegador web.\n\n")
+# --Corte aquí--8<-------------------------------------------------------------------
+# Página principal
+
+# Define colores
+class Color:
+    RESET = '\033[0m'
+    RED = '\033[91m'
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    BLUE = '\033[94m'
+    PURPLE = '\033[95m'
+    CYAN = '\033[96m'
+    GREY = '\033[90m'
+
+# Comprobar el sistema operativo
+OS = platform.system()
+OS_version = platform.release()
+
+print(f"""
+
+   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+                        
+                             ▬ SERVIDOR WEB ▬            
+      
+    Este programa permite compartir la carpeta donde se encuentre el archivo.
+    Solo es necesario ejecutar el programa y compartir la dirección IP.
+
+    Utilizar con {Color.RED + 'precaución' + Color.RESET}, el programa no tiene medidas de seguridad.
+
+               Presiona Ctrl+C para detener el servidor.
+
+    {Color.GREY + '● Autor: Mortanauta' + Color.RESET} 
+    {Color.GREY + '● Versión: 2.2' + Color.RESET} 
+    {Color.GREY + '● Sitio web: https://elrincondemorta.wordpress.com/' + Color.RESET}
+    {Color.GREY + '● Github: https://github.com/Mortanauta/Public' + Color.RESET}  
+    {Color.GREY + '● Licencia: GPL 3.0 https://www.gnu.org/licenses/gpl-3.0.en.html' + Color.RESET}
+      
+   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+""")
+# Imprimir comprobación del sistema operativo
+input(f"""
+    COMPROBANDO EL SISTEMA OPERATIVO
+     ├ Sistema operativo detectado: {OS} {OS_version}
+     └ Directorio actual: {os.path.dirname(os.path.abspath(sys.argv[0]))}
+
+      Presiona Enter para continuar...""")   
+
+# Limpiar la pantalla
+os.system("cls" if OS == "Windows" else "clear")
+time.sleep(1)
+
+# --Corte aquí--8<-------------------------------------------------------------------
+# Programa principal
+
+print(f"""\n                                                                 Version 2.2\n
+             ____    |\         ╔══════════════╗         
+            ||__||   |⁜\        ║   SERVIDOR   ║ ╔═╗ ╚═╝ ╔═╗ ╚═╝ ║           
+            [ -=.]`) |Morta     ║     WEB 🌍   ║ ╚═╝ ╔═╗ ╚═╝ ╔═╗ ║           
+            ====== 0 |Nauta     ╚══════════════╝              
+        
+            Comparte la carpeta donde esté ubicado el archivo en cualquier navegador web.\n\n""")
+
 
 # Especifica el puerto en el que deseas que se ejecute el servidor
 puerto = 8000
