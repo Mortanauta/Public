@@ -2,9 +2,9 @@
 
 ## Public ⸎ Public Applications Repository
 	         ____      |\           
-            ||__||     |⁜\        ║ ╔═╗ ╚═╝ ╔═╗ ╚═╝ ║           
-            [ -=.]`)   |Morta     ║ ╚═╝ ╔═╗ ╚═╝ ╔═╗ ║           
-            ====== 0   |nauta               	Coding...
+            ||__||     |⁜\   	║ ╔═╗ ╚═╝ ╔═╗ ╚═╝ ║           
+            [ -=.]`)   |Morta  	║ ╚═╝ ╔═╗ ╚═╝ ╔═╗ ║           
+            ====== 0   |nauta               	Coding at night.
 
 
 In this repository, you will find various applications I have developed to address different needs. From a port scanner to a CSV to MS-Excel converter.
