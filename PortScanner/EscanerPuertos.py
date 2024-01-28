@@ -9,6 +9,67 @@ import socket
 import ipaddress
 import re
 import datetime
+import platform
+import os
+import time
+
+# --Corte aquí--8<-------------------------------------------------------------------
+# Página principal
+
+# Define colores
+class Color:
+    RESET = '\033[0m'
+    RED = '\033[91m'
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    BLUE = '\033[94m'
+    PURPLE = '\033[95m'
+    CYAN = '\033[96m'
+    GREY = '\033[90m'
+
+# Comprobar el sistema operativo
+OS = platform.system()
+OS_version = platform.release()
+
+print(f"""
+
+   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+                        
+                            ▬ Escaner de Puertos ▬            
+      
+    Este código permite buscar de una forma rápida puertos abiertos en la red 
+    especificadam mostrando aquellos que están accesibles.
+
+    NOTA:    
+    ├ Dejar la IP final en blanco para escanear solo una IP.
+    └ Dejar el puerto final en blanco para escanear solo un puerto.  
+           
+    {Color.RED + 'ATENCIÓN:' + Color.RESET} Escanear una red sin permiso puede ser delito.
+
+    {Color.GREY + '● Autor: Mortanauta' + Color.RESET} 
+    {Color.GREY + '● Versión: 1.32' + Color.RESET} 
+    {Color.GREY + '● Sitio web: https://elrincondemorta.wordpress.com/' + Color.RESET}
+    {Color.GREY + '● Github: https://github.com/Mortanauta/Public' + Color.RESET}  
+    {Color.GREY + '● Licencia: GPL 3.0 https://www.gnu.org/licenses/gpl-3.0.en.html' + Color.RESET}
+      
+   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+""")
+# Imprimir comprobación del sistema operativo
+input(f"""
+    COMPROBANDO EL SISTEMA OPERATIVO
+     └ Sistema operativo detectado: {OS} {OS_version}
+
+      Presiona Enter para continuar...""")   
+
+# Limpiar la pantalla
+os.system("cls" if OS == "Windows" else "clear")
+time.sleep(1)
+
+# --Corte aquí--8<-------------------------------------------------------------------
+# Programa principal
+
 
 # Función para validar una dirección IP utilizando una expresión regular
 def validar_direccion_ip(ip):
@@ -56,11 +117,11 @@ def scan_ips(start_ip, end_ip, start_port, end_port, verbose=False):
 #direccion_ip = socket.gethostbyname(socket.gethostname()) # Cuando solo hay una dirección IP asociada al equipo (A)
 
 # Main Program
-print("\n                                 ESCANER PUERTOS                                    V:1.31\n")
-print("   |\\        --------------------------------------------------------------     ")           
-print("   |⁜\\      |  Este programa escanea una red en busca de puertos abiertos  |    By: Mortanauta " )
-print("   |Morta   |  Introduzca los datos de la red a escanear:                  |    https://elrincondemorta.wordpress.com ")
-print("   |Nauta    --------------------------------------------------------------     https://github.com/Mortanauta/Public\n")
+print("""\n                                 ESCANER PUERTOS                                    V:1.32\n
+    |\\        ╔══════════════════════════════════════════════════════════════╗        
+    |⁜\\       ║  Este programa escanea una red en busca de puertos abiertos  ║   ╔═╗ ╚═╝ ╔═╗ ╚═╝ ║
+    |Morta    ║      ⸎    Introduzca los datos de la red a escanear:         ║   ╚═╝ ╔═╗ ╚═╝ ╔═╗ ║ 
+    |Nauta    ╚══════════════════════════════════════════════════════════════╝   \n """)
 
 #print(f"           Dirección IP del equipo: {direccion_ip} \n ") # Cuando solo hay una dirección IP asociada al equipo (A)
 

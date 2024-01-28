@@ -1,28 +1,45 @@
-# ![](./Images/GitHub.png) &nbsp;&nbsp;   PORT SCANNER                                                                            
-## This Python program is a port scanner designed to explore a range of IP addresses and ports within a specific network. 
+# ![](./Images/GitHub.png) &nbsp;&nbsp; Port Scanner
 
-Its primary objective is to find and display ports that are open and available for connections on that network.
+## Port Scanner for `Windows` or `Linux`
 
-Upon running the program, the user will be prompted to input certain parameters such as the starting and ending IP addresses, as well as the starting and ending ports they wish to analyze. Once these details are entered, the program will:
+# Introduction
 
-   1. Iterate through the specified range of IP addresses.
-   2. For each IP address, check the availability of ports within the specified range.
-   3. Display the ports that are open and ready to receive connections.
-   
-	If no ending IP or port is specified, the application will default to using the starting value.
+Its main goal is to find and display open ports available for connections on that network.
 
-Additionally, it offers a 'verbose' mode, where it provides detailed information about each connection attempt, indicating whether a port is open or closed for each IP address.
-
-Once the scan is completed, the program presents the found open ports or reports if no open ports were detected within that range of IP addresses and specified ports. Additionally, it shows the total time taken to complete this scanning process.
-
-Finally, for user convenience, it waits for the user to press Enter to exit the program after displaying the results."
+# Contents:
+    EscanerPuertos.py: - Python code (in Spanish)
+    PortScanner.py: - Python code (in English)
+    EscanerPuertos.zip: - Executable for Windows
+    PostScanner.zip: - Executable for Windows
+    Leeme.md: - Information file (in Spanish) - this document
+    Readme.md: - Information file (in English) 
 
 
-CONTENTS:
+# Features
 
-    EscanerPuertos.py: - Python code (in Spanish).
-    POrtScanner.py: - Python code (in English).
-    EscanerPuertos.zip: - Executable for Windows.
-    PortScanner.zip - Executable for windows.
-    Leeme.md: - Information file (in Spanish).
-    Readme.md: - Information file (in English) - this document.
+- Scans port range from 1 to 65535.
+- Validates IP addresses (IPv4) and ports.
+- Option for verbose or detailed mode.
+- Detects multiple IPs on the device (Multi-LAN).
+- No installation required. No additional modules needed.
+- User-friendly.
+- Tested on: Gnu-Linux and Windows
+
+# Installation
+
+Simply download the option that suits your needs.
+
+# Screenshots
+
+![](./Images/ScreenShot.png)
+(*Final IP addresses hidden in the capture*)
+
+# Quick Start
+
+Upon activation, this code initiates a server that displays your system's current IP address (which may include one or more, depending on your network) along with a port number, e.g., 192.168.1.1:8000. Entering this information into your browser allows access to the files within the folder, enabling viewing, execution, or downloading.
+
+To prevent errors, the specific location of the shared folder is prominently displayed on-screen. The server's activity is also monitored for your convenience. To terminate the server, simply press **Ctrl+C** or close the window.
+
+# Conclusion
+
+In essence, this code empowers you to convert your device into a simple web server, effortlessly sharing local content with other devices on your network via a web browser, enhancing ease and speed of access.
