@@ -1,5 +1,5 @@
 # Autor: Mortanauta
-# Fecha: 01/10/2023
+# Versión: 1.32
 # Web: https://elrincondemorta.wordpress.com/
 # Github: https://github.com/Mortanauta/Public  
 # Licencia: GPL 3.0 https://www.gnu.org/licenses/gpl-3.0.en.html
