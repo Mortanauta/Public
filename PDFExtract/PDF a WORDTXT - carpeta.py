@@ -1,5 +1,5 @@
 # Autor: Mortanauta
-# Fecha: 05/12/2023
+# Versión: 1.10
 # Web: https://elrincondemorta.wordpress.com/
 # Github: https://github.com/Mortanauta/Public  
 # Licencia: GPL 3.0 https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -16,6 +16,64 @@ import os
 from PyPDF2 import PdfReader
 from docx import Document
 import time
+import platform
+
+# --Corte aquí--8<-------------------------------------------------------------------
+# Página principal
+
+# Define colores
+class Color:
+    RESET = '\033[0m'
+    RED = '\033[91m'
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    BLUE = '\033[94m'
+    PURPLE = '\033[95m'
+    CYAN = '\033[96m'
+    GREY = '\033[90m'
+
+# Comprobar el sistema operativo
+OS = platform.system()
+OS_version = platform.release()
+
+print(f"""
+
+   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+                        
+                        ▬ Conversor de PDF a Word/TXT ▬            
+      
+    Este código convierte archivos PDF a texto o Word de una forma rápida.
+
+    Convierte todos los archivos PDF que encuentre en la carpeta especificada, 
+    permitiendo seleccionar el formato de salida (TXT o DOCX).
+
+    NOTA: El resultado puede variar en función de la codificación del PDF.    
+        
+    {Color.GREY + '● Autor: Mortanauta' + Color.RESET} 
+    {Color.GREY + '● Versión: 1.32' + Color.RESET} 
+    {Color.GREY + '● Sitio web: https://elrincondemorta.wordpress.com/' + Color.RESET}
+    {Color.GREY + '● Github: https://github.com/Mortanauta/Public' + Color.RESET}  
+    {Color.GREY + '● Licencia: GPL 3.0 https://www.gnu.org/licenses/gpl-3.0.en.html' + Color.RESET}
+      
+   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+   ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+""")
+
+
+# Imprimir comprobación del sistema operativo
+input(f"""
+    COMPROBANDO EL SISTEMA 
+     └ Sistema operativo detectado: {OS} {OS_version}
+
+      Presiona Enter para continuar...""")   
+
+# Limpiar la pantalla
+os.system("cls" if OS == "Windows" else "clear")
+time.sleep(1)
+
+# --Corte aquí--8<-------------------------------------------------------------------
+# Página principal
 
 def pdf_a_texto(ruta_pdf, ruta_salida, formato):
     if formato == 1:
@@ -41,12 +99,10 @@ if __name__ == "__main__":
     print(f"""\n
                                                                             Version 1.1
 
-      |\        ******************************************************       By: Mortanauta        
-      | \       *           CONVERSOR PDF a Word/TXT                 *       https://elrincondemorta.wordpress.com/  
-      | /       *        Convierte los archivos PDF a texto          *       https://github.com/Mortanauta/Public  
-      |/        ******************************************************         
-                                                                        """)
-
+    |\        ╔════════════════════════════════════════════════════╗             
+    |⁜\       ║         📚  CONVERSOR PDF a Word/TXT               ║   ╔═╗ ╚═╝ ╔═╗ ╚═╝ ║
+    |Morta    ║       Convierte los archivos PDF a texto           ║   ╚═╝ ╔═╗ ╚═╝ ╔═╗ ║   
+    |Nauta    ╚════════════════════════════════════════════════════╝   \n """)             
 
     # Solicitar al usuario la ruta de la carpeta que contiene los archivos PDF
     carpeta_pdf = input("\n    ♦   Ingresa la ruta de la carpeta que contiene los archivos PDF: ")
