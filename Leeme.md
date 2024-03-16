@@ -14,7 +14,7 @@ Cada aplicación tiene su propia carpeta y un propósito único.
 
 ## Aplicaciones Disponibles:
 
- - [**CSVtoExcelCarpeta:**](https://github.com/Mortanauta/Public/tree/main/CsvToExcelCarpeta)`Office` Convierte los archivos CSV de una carpeta a MS-Excel, y viceversa.
+ - [**CSVtoExcel**](https://github.com/Mortanauta/Public/tree/main/CsvToExcel)`Office` Convierte los archivos CSV de una carpeta a MS-Excel, y viceversa.
  - [**InfNetworkCard:**](https://github.com/Mortanauta/Public/tree/main/InfNetwordCard)`System` Completo informe de PowerShell sobre las tarjetas de red en el equipo. Estado, velocidad, dirección MAC, etc.
  - [**PDFExtract:**](https://github.com/Mortanauta/Public/tree/main/PDFExtract)`Office` Extrae el texto de un pdf a TXT o Docx.
  - [**PortScanner:**](https://github.com/Mortanauta/Public/tree/main/PortScanner)`System` Rápido escaner de puertos que permite elegir el rango de IPs (IPv4) y el rango de puertos a escanear.
