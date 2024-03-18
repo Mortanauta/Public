@@ -96,7 +96,7 @@ if __name__ == "__main__":
                                                                             Version 1.1
 
     |\        ╔════════════════════════════════════════════════════╗             
-    |⁜\       ║         📚  CONVERSOR PDF a Word/TXT               ║   ╔═╗ ╚═╝ ╔═╗ ╚═╝ ║
+    |⁜\       ║         📚  EXTRACTOR PDF a Word/TXT               ║   ╔═╗ ╚═╝ ╔═╗ ╚═╝ ║
     |Morta    ║       Convierte los archivos PDF a texto           ║   ╚═╝ ╔═╗ ╚═╝ ╔═╗ ║   
     |Nauta    ╚════════════════════════════════════════════════════╝   \n """)             
 
@@ -104,7 +104,8 @@ if __name__ == "__main__":
     carpeta_pdf = input("\n    ♦   Ingresa la ruta de la carpeta que contiene los archivos PDF: ")
 
     # Solicitar al usuario la ruta de la carpeta de salida para los archivos
-    carpeta_texto = input("    ♦   Ingresa la ruta para la carpeta de salida de archivos\n        (si no ingresas, se utilizará la misma ruta que la carpeta de PDF): ")
+    print(f"""\n          {Color.GREY +'(Dejad vacío para usar el mismo nombre y carpeta)'+Color.RESET}""")
+    carpeta_texto = input("    ♦   Ingresa la ruta para la carpeta de salida de archivos: ")
 
     if not carpeta_texto:
         carpeta_texto = carpeta_pdf  # Si no se ingresa ruta, se utiliza la misma que la de PDF

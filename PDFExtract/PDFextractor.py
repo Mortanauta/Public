@@ -95,7 +95,7 @@ if __name__ == "__main__":
                                                                             Version 1.1
 
     |\        ╔══════════════════════════════════════════╗             
-    |⁜\       ║    📚  PDF to Word/TXT Converter         ║   ╔═╗ ╚═╝ ╔═╗ ╚═╝ ║
+    |⁜\       ║     📚  PDF to Word/TXT Extractor        ║   ╔═╗ ╚═╝ ╔═╗ ╚═╝ ║
     |Morta    ║       Converts PDF files to text         ║   ╚═╝ ╔═╗ ╚═╝ ╔═╗ ║   
     |Nauta    ╚══════════════════════════════════════════╝   \n """)             
 
@@ -103,7 +103,8 @@ if __name__ == "__main__":
     pdf_folder = input("\n    ♦   Enter the path of the folder containing the PDF files: ")
 
     # Ask the user for the output folder path for the files
-    text_folder = input("    ♦   Enter the path for the output folder\n        (if not entered, the same path as the PDF folder will be used): ")
+    print(f"""\n    {Color.GREY + '(Leave empty to use the same name and folder)'+Color.RESET}""" )
+    text_folder = input("    ♦   Enter the path for the output folder: ")
 
     if not text_folder:
         text_folder = pdf_folder  # If no path is entered, use the same as the PDF folder

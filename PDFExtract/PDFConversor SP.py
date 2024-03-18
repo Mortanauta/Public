@@ -71,7 +71,7 @@ print(f"""\n
                                                                 """) 
 
 pdf_file = input("\n        ♦   Introduce la ruta completa y el nombre del archivo PDF: ")
-print(f"\n                   (Deja vacío para usar el mismo nombre y carpeta)" )
+print(f"""\n                   {Color.GREY +'(Dejad vacío para usar el mismo nombre y carpeta)'+Color.RESET}""")
 docx_file = input("        ♦   Introduce la ruta completa y el nombre del archivo WORD DESTINO: ")
 
 print(f"\n\nConvirtiendo PDF a Word... 🤖 \n")

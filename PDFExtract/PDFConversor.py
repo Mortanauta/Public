@@ -77,7 +77,7 @@ print(f"""\n
 #pdf_file = 'C:\\Users\\miguelangel.depablo\\Documents\\CODIGO\\Python\\ComoEntrenarIA.pdf'
 pdf_file = input("\n        ♦   Enter the full path and name of the PDF file: ")#'C:\\Users\\miguelangel.depablo\\Documents\\CODIGO\\Python\\ComoEntrenarIA.pdf'
 #docx_file = 'C:\\Users\\miguelangel.depablo\\Documents\\CODIGO\\Python\\ombre.docx'
-print(f"\n                   (Leave empty to use the same name and folder)" )
+print(f"""\n               {Color.GREY + '(Leave empty to use the same name and folder)'+Color.RESET}""" )
 docx_file = input("        ♦   Enter the full path and name of the DESTINATION WORD file: ")#'C:\\Users\\miguelangel.depablo\\Documents\\CODIGO\\Python\\ombre.docx'
 
 print(f"\n\nConverting PDF to Word... 🤖 \n")

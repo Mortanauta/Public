@@ -1,45 +1,57 @@
-# ![](./Images/GitHub.png) &nbsp;&nbsp; Port Scanner
+# ![](./Images/GitHub.png) &nbsp;&nbsp; PDF Text Extractor & Converter
 
-## Port Scanner for `Windows` or `Linux`
+## Extracts and converts PDF to  `Word` or `TXT`. 
 
 # Introduction
 
-Its main goal is to find and display open ports available for connections on that network.
+In order to address the most common issues when working with PDFs, this time we have prepared two programs:
+ - PDF Extractor: Extracts the text from **ALL** files in a given folder and saves it as Word or TXT with the same name as the PDF document. In both cases, the formatting that the PDF file may have is lost, meaning it only extracts the text.
+ - PDF Converter: Converts a PDF file to Word, preserving formats and images. The result is not always good 🤨 , it is recommended to review the final file.
 
 # Contents:
-    EscanerPuertos.py: - Python code (in Spanish)
-    PortScanner.py: - Python code (in English)
-    EscanerPuertos.zip: - Executable for Windows
-    PostScanner.zip: - Executable for Windows
-    Leeme.md: - Information file (in Spanish) - this document
-    Readme.md: - Information file (in English) 
+    - PDFExtractor SP.py: - Python Code (in Spanish)
+    - PDFExtractor.py: - Python Code (in English)
+    - PDFConverter SP.py: - Python Code (in Spanish)
+    - PDFConverter.py: - Python Code (in English)
+    - Leeme.md: - Info Document (in Spanish) - This document.
+    - Readme.md: - Info Document (in English)
 
+*NOTE*: There will be **NO** EXE files this time due to compilation size.
 
 # Features
 
-- Scans port range from 1 to 65535.
-- Validates IP addresses (IPv4) and ports.
-- Option for verbose or detailed mode.
-- Detects multiple IPs on the device (Multi-LAN).
-- No installation required. No additional modules needed.
-- User-friendly.
-- Tested on: Gnu-Linux and Windows
+- **Extractor:** Recognizes PDF files in the folder, ignoring others.
+- **Extractor:** Preserves the name of the original file for traceability.
+- **Extractor:** Indicates the number of files converted and the time spent.
+- **Converter:** Validates that the entered path is valid.
+- **Converter:** Maintains structure and format of the original file.
+- **Converter:** If no final variable is introduced, it will generate a Word file in the same path and with the same name as the original.
 
 # Installation
 
-Simply download the option that suits your needs.
+    Extractor   ► pip install python-docx
+                ► pip install PyPDF2
+    
+    Converter   ► pip install pdf2docx
+
 
 # Screenshots
+![](./Images/PDFExtractor.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(*PDF Extractor*)
 
-![](./Images/ScreenShot.png)
-(*Final IP addresses hidden in the capture*)
+![](./Images/PDFConversor.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(*PDF Conversor*)
 
 # Quick Start
 
-Upon activation, this code initiates a server that displays your system's current IP address (which may include one or more, depending on your network) along with a port number, e.g., 192.168.1.1:8000. Entering this information into your browser allows access to the files within the folder, enabling viewing, execution, or downloading.
+**Extractor**
 
-To prevent errors, the specific location of the shared folder is prominently displayed on-screen. The server's activity is also monitored for your convenience. To terminate the server, simply press **Ctrl+C** or close the window.
+Enter the path where the PDF files are located, select a path to store the TXT or Word files (or leave it blank to use the same as the source), finally, choose between Word or TXT as the destination file type and wait for the process to finish.
+
+**Converter**
+
+Enter the path of the file including its name, similarly enter the destination file address (or leave it blank to keep the name and folder), wait for the process to finish.
 
 # Conclusion
 
-In essence, this code empowers you to convert your device into a simple web server, effortlessly sharing local content with other devices on your network via a web browser, enhancing ease and speed of access.
+Two pieces of software that allow us to extract / convert the content of a PDF.
