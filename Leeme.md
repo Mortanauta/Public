@@ -14,6 +14,7 @@ Cada aplicación tiene su propia carpeta y un propósito único.
 
 ## Aplicaciones Disponibles:
 
+ - [**CortaExcel:**](https://github.com/Mortanauta/Public/tree/main/CortaExcel)`Office` Divide dividir un archivo Excel en varios según el número de filas especificado.
  - [**CSVtoExcel**](https://github.com/Mortanauta/Public/tree/main/CsvToExcel)`Office` Convierte los archivos CSV de una carpeta a MS-Excel, y viceversa.
  - [**InfNetworkCard:**](https://github.com/Mortanauta/Public/tree/main/InfNetwordCard)`System` Completo informe de PowerShell sobre las tarjetas de red en el equipo. Estado, velocidad, dirección MAC, etc.
  - [**PDFExtract:**](https://github.com/Mortanauta/Public/tree/main/PDFExtract)`Office` Extrae el texto de un pdf a TXT o Docx.
